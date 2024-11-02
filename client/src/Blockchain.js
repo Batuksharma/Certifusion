@@ -2,7 +2,7 @@
 import { ethers, BrowserProvider } from "ethers";
 import CertificateRegistry from "./CertificateRegistry.json";
 
-const contractAddress = "0xb200cccC77578DBa7AE516F320ccca7d526A6df2";
+const contractAddress = "";
 const abi = CertificateRegistry.abi;
 
 export const getBlockchain = async () => {
